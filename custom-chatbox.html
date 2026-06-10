@@ -1,14 +1,12 @@
 <div id="log" class="sl__chat__layout"></div>
 
 <script type="text/template" id="chatlist_item">
-  <div data-from="{from}" data-id="{messageId}" class="bubble-wrapper">
-    <div class="dp-window">
-      <img src="{avatar}" alt="{from}" onerror="this.style.display='none'">
-    </div>
-    <div class="bubble-titlebar">
-      <span class="username">{from}.exe</span>
-      <span class="badges"></span>
-    </div>
-    <div class="bubble-body message">{message}</div>
+<div data-from="{from}" data-id="{messageId}" class="bubble-wrapper">
+  <div class="bubble-titlebar">
+    <span class="username">{from}.exe</span>
+    <span class="badges"></span>
   </div>
+  <div class="bubble-body message">{message}</div>
+  <div class="dp-window"></div>
+</div> 
 </script>
